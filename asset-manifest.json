@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/PortafolioV2/static/css/main.dff43b22.css",
+    "main.js": "/PortafolioV2/static/js/main.51fc3bb3.js",
+    "static/media/portrait-santiago.png": "/PortafolioV2/static/media/portrait-santiago.b57f999e6263c48a243c.png",
+    "index.html": "/PortafolioV2/index.html",
+    "main.dff43b22.css.map": "/PortafolioV2/static/css/main.dff43b22.css.map",
+    "main.51fc3bb3.js.map": "/PortafolioV2/static/js/main.51fc3bb3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dff43b22.css",
+    "static/js/main.51fc3bb3.js"
+  ]
+}
