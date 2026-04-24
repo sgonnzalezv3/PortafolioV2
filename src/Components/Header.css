@@ -1,0 +1,925 @@
+body {
+  background-color: black;
+  
+}
+.success{
+  background-color: #6286e0;
+}
+.unSuccess{
+  background-color: #ADC4E0;
+}
+.comfortable{
+  padding-left: 0.5rem;
+  padding-top: 1rem;
+  padding-right: 0rem;
+}
+.parrafo {
+  text-align: justify;
+}
+.infoCamp {
+  font-family: "Open Sans";
+  color: white;
+  border: 0.1px solid#1c1e21;
+}
+.navbar-custom {
+  color: #ffffff !important;
+}
+.navbar-toggler {
+  background-color: transparent;
+}
+.navbar-light .navbar-toggler .navbar-toggler-icon {
+  width: 5;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.85)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+#navigation-bar a:hover {
+  color: #6286e0 !important;
+}
+#navigation-bar a::before {
+  content: "";
+  transition: all 0.4s ease-in-out;
+  position: absolute;
+  right: 50%;
+  left: 50%;
+  bottom: 0;
+  height: 2px;
+  background-color: #6286e0;
+}
+#navigation-bar a:hover::before {
+  right: 0;
+  left: 0;
+}
+.menus {
+  font-family: "Open Sans";
+}
+.button {
+  background-color: #6286e0;
+  border: #6286e0;
+}
+.c {
+  width: 100vh !important;
+}
+.letter {
+  font-size: 2.5rem;
+  font-family: "Open Sans";
+  color: white;
+}
+.letterSub {
+  font-size: 1.3rem;
+  font-family: "Open Sans";
+}
+@media only screen and (min-width: 1920px) and (max-width: 2559px) {
+  .margen {
+    padding-left: 24.5rem;
+  }
+  .fondoo{
+    background-color: rgba(12, 13, 14,0.6);
+}
+  .caja3 {
+    width: 100%;
+    height: 280px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .espacio {
+    margin-top: 6% !important;
+    margin-bottom: 8.6% !important;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 5rem;
+    margin-bottom: 5px;
+  }
+
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    height: 62vh;
+    flex-direction: column;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    margin-top: 6px;
+    margin-bottom: 5px;
+  }
+
+  .letter {
+    font-size: 2.5rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  .margen {
+    padding-left: 44rem;
+  }
+  .fondoo{
+    background-color: rgba(12, 13, 14, 0.8);
+}
+  .caja3 {
+    width: 100%;
+    height: 300px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .espacio {
+    margin-top: 4.5% !important;
+    margin-bottom: 3.3% !important;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center2 {
+    padding-top: 6rem;
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    height: 59.8vh;
+    flex-direction: column;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    margin-top: 166px;
+    margin-bottom: 5px;
+  }
+
+  .letter {
+    font-size: 3.5rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 2.3rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .margen {
+    padding-left: 3rem;
+  }
+  .fondoo{
+    background-color: rgba(12, 13, 14, 0.8);
+}
+  .caja3 {
+    width: 100%;
+    height: 300px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  
+  .chinche{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .espacio {
+    margin-top: 5% !important;
+    margin-bottom: 5% !important;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center2 {
+    padding-top: 5rem;
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    height: 39.4vh;
+    flex-direction: column;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    margin-top: 11px;
+    margin-bottom: 5px;
+  }
+
+  .letter {
+    font-size: 2.5rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (min-width: 1440px) and (max-width: 1919px) {
+  .margen {
+    padding-left: 10rem;
+  }
+  .fondoo{
+    background-color: rgba(12, 13, 14, 0.8);
+}
+  .caja3 {
+    width: 100%;
+    height: 260px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  
+  .espacio {
+    margin-top: 4.5% !important;
+    margin-bottom: 3.3% !important;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 6rem;
+    margin-bottom: 5px;
+  }
+
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    height: 69.5vh;
+    flex-direction: column;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    margin-top: 11px;
+    margin-bottom: 5px;
+  }
+
+  .letter {
+    font-size: 2.5rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1023px) {
+  .personalInfoTitle{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .chinche{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .personalInfo{
+    margin-left: 1rem;
+  }
+  
+  .caja3 {
+    width: 100%;
+    height: 500px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  
+  .espacio {
+    margin-top: 4.5% !important;
+    margin-bottom: 6.3% !important;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 6rem;
+    margin-bottom: 5px;
+  }
+
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    height: 61.5vh;
+    flex-direction: column;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    margin-top: 11px;
+    margin-bottom: 5px;
+  }
+
+  .letter {
+    font-size: 2.5rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (max-width: 280px) and (min-width: 0px) {
+  .caja3 {
+    width: 100%;
+    height: 800px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .infoCamp {
+    font-family: "Open Sans";
+  
+    color: white;
+    border: 0.1px solid#1c1e21;
+  }
+
+  .content-center6 {
+    position: static !important;
+    text-align: center !important;
+    color: #ffffff;
+    padding-top: 19%;
+    padding-bottom: 15%;
+  }
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-custom {
+    width: 0%;
+    color: #ffffff !important;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    padding-top: 6rem;
+  }
+  .letter {
+    font-size: 1.7rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (max-width: 360px) and (min-width: 281px) {
+  .espacio {
+    margin-top: 4.5% !important;
+    margin-bottom: 0% !important;
+  }
+  .caja3 {
+    width: 100%;
+    height: 750px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .content-center6 {
+    position: static !important;
+    text-align: center !important;
+    color: #ffffff;
+    padding-top: 20%;
+    padding-bottom: 15%;
+  }
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-custom {
+    width: 0%;
+    color: #ffffff !important;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 10%;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center2 {
+    padding-top: 5rem;
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .letter {
+    font-size: 1.9rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (max-width: 959px) and (min-width: 541px) {
+  .caja3 {
+    width: 100%;
+    height: 620px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .personalInfoTitle{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .chinche{
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .personalInfo{
+    margin-left: 1rem;
+  }
+  .infoCamp {
+    font-family: "Open Sans";
+
+    color: white;
+    border: 0.1px solid#1c1e21;
+  }
+  .parrafito {
+    margin-right: 10%;
+  }
+  .espacio {
+    margin-top: 2% !important;
+    margin-bottom: 1.3% !important;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-custom {
+    width: 0%;
+    color: #ffffff !important;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+    border-right: 0 !important ;
+    margin-right: 0 !important;
+  }
+  .letter {
+    font-size: 2.3rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (max-width: 540px) and (min-width: 415px) {
+  .caja3 {
+    width: 100%;
+    height: 700px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .personalInfoTitle{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .chinche{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .personalInfo{
+    margin-left: 1rem;
+  }
+  .infoCamp {
+    font-family: "Open Sans";
+
+    color: white;
+    border: 0.1px solid#1c1e21;
+  }
+  .parrafito {
+    margin-right: 10%;
+  }
+  .espacio {
+    margin-top: 2% !important;
+    margin-bottom: 1.3% !important;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-custom {
+    width: 0%;
+    color: #ffffff !important;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+    border-right: 0 !important ;
+    margin-right: 0 !important;
+  }
+  .letter {
+    font-size: 2.3rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (max-width: 414px) and (min-width: 376px) {
+  .caja3 {
+    width: 100%;
+    height: 750px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .personalInfoTitle{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .chinche{
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .personalInfo{
+    margin-left: 1rem;
+  }
+  .infoCamp {
+    font-family: "Open Sans";
+
+    color: white;
+    border: 0.1px solid#1c1e21;
+  }
+  .parrafito {
+    margin-right: 10%;
+  }
+  .espacio {
+    margin-top: 10% !important;
+    margin-bottom: 10% !important;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-custom {
+    width: 0%;
+    color: #ffffff !important;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+    border-right: 0 !important ;
+    margin-right: 0 !important;
+  }
+  .letter {
+    font-size: 2.3rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+@media only screen and (max-width: 375px) and (min-width: 361px) {
+  .caja3 {
+    width: 100%;
+    height: 770px;
+    background-color: #1c1e21;
+    box-shadow: 0px 0px 50px 0px black;
+  }
+  .personalInfoTitle{
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  .chinche{
+    padding-left: .5rem;
+    padding-right: .5rem;
+  }
+  .personalInfo{
+    margin-left: 1rem;
+  }
+  .infoCamp {
+    font-family: "Open Sans";
+
+    color: white;
+    border: 0.1px solid#1c1e21;
+  }
+  .parrafito {
+    margin-right: 10%;
+  }
+  .espacio {
+    margin-top: 2% !important;
+    margin-bottom: 1.3% !important;
+  }
+  .content-center6 {
+    text-align: center !important;
+    color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 10%;
+  }
+  .header-container {
+    background: url("https://images.pexels.com/photos/6709838/pexels-photo-6709838.jpeg?cs=srgb&dl=pexels-santiago-gonzalez-6709838.jpg&fm=jpg") center center/cover;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .navbar-custom {
+    width: 0%;
+    color: #ffffff !important;
+  }
+  .content-center4 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center5 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+  }
+  .content-center3 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+  }
+  .content-center2 {
+    text-align: center !important;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 5%;
+    border-right: 0 !important ;
+    margin-right: 0 !important;
+  }
+  .letter {
+    font-size: 2.3rem;
+    font-family: "Open Sans";
+  }
+  .letterSub {
+    font-size: 1.3rem;
+    font-family: "Open Sans";
+  }
+}
+
+@-webkit-keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+@keyframes pulsate {
+  0% {
+    -webkit-transform: scale(0.6, 0.6);
+    transform: scale(0.6, 0.6);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1, 1);
+    transform: scale(1, 1);
+    opacity: 0;
+  }
+}
+
+.profile-image a {
+  position: relative;
+}
+
+.profile-image a:before {
+  content: "";
+  border: 15px solid hsla(219, 64%, 45%, 0.6);
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  position: absolute;
+  left: 0;
+  -webkit-animation: pulsate 1.6s ease-out;
+  animation: pulsate 1.5s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  opacity: 0;
+  z-index: 99;
+}
+.profile-image img {
+  position: relative;
+  border-radius: 50%;
+  height: 180px;
+  width: 180px;
+  padding: 0;
+  margin: 0;
+  border: 15px solid transparent;
+  z-index: 9999;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.profile-image a:hover img {
+  -webkit-transform: scale(1.06, 1.06);
+  transform: scale(1.06, 1.06);
+}
+
+.profile-image a:hover:before {
+  -webkit-animation: none;
+  animation: none;
+}

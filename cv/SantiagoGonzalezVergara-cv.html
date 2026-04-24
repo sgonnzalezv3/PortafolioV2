@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Santiago Gonzalez Vergara - Senior Software Engineer CV</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        color: #05070d;
+        background: #fff;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 9.45pt;
+        line-height: 1.48;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      h1,
+      h2,
+      h3,
+      p {
+        margin: 0;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: underline;
+      }
+
+      ul {
+        margin: 2.2mm 0 0;
+        padding-left: 5.5mm;
+      }
+
+      li {
+        padding-left: 1mm;
+      }
+
+      li + li {
+        margin-top: 2.15mm;
+      }
+
+      .page {
+        display: grid;
+        grid-template-columns: 66mm 144mm;
+        width: 210mm;
+        height: 297mm;
+        overflow: hidden;
+        background: #fff;
+        break-after: page;
+      }
+
+      .page:last-child {
+        break-after: auto;
+      }
+
+      .sidebar {
+        height: 297mm;
+        padding: 15mm 10.5mm 13mm 13.2mm;
+        color: #fff;
+        background: #385895;
+      }
+
+      .sidebar.second {
+        padding-top: 18mm;
+      }
+
+      .avatar {
+        display: block;
+        width: 15.2mm;
+        height: 15.2mm;
+        margin: 0 auto 4mm;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .name {
+        color: #fff;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 19pt;
+        font-weight: 700;
+        line-height: 1.08;
+        text-align: center;
+      }
+
+      .divider {
+        width: 4.8mm;
+        height: 0.45mm;
+        margin: 4.2mm auto 4mm;
+        background: rgba(255, 255, 255, 0.28);
+      }
+
+      .headline {
+        color: #fff;
+        font-size: 6.9pt;
+        font-weight: 700;
+        letter-spacing: 0.14em;
+        line-height: 1.55;
+        text-align: center;
+        text-transform: uppercase;
+      }
+
+      .side-section {
+        margin-top: 7.8mm;
+      }
+
+      .side-section.compact {
+        margin-top: 0;
+      }
+
+      .side-section h2 {
+        margin-bottom: 2.4mm;
+        color: #fff;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 13.8pt;
+        line-height: 1;
+      }
+
+      .side-section p,
+      .side-section li {
+        color: #fff;
+        font-size: 8.15pt;
+        line-height: 1.47;
+      }
+
+      .side-section p + p {
+        margin-top: 1.25mm;
+      }
+
+      .side-section ul {
+        padding-left: 0;
+        list-style: none;
+      }
+
+      .skill-line {
+        margin-bottom: 1.15mm;
+      }
+
+      .skill-line strong {
+        font-weight: 700;
+      }
+
+      .meter {
+        width: 45mm;
+        height: 1mm;
+        margin: 1.2mm 0 2mm;
+        background: rgba(255, 255, 255, 0.3);
+      }
+
+      .meter span {
+        display: block;
+        height: 100%;
+        background: #fff;
+      }
+
+      .content {
+        height: 297mm;
+        padding: 17mm 14.5mm 11mm 11.5mm;
+      }
+
+      .content.second {
+        padding-top: 16mm;
+      }
+
+      .section + .section {
+        margin-top: 8.2mm;
+      }
+
+      .section h2 {
+        margin-bottom: 2.6mm;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: 17.2pt;
+        line-height: 1.1;
+      }
+
+      .profile p {
+        max-width: 122mm;
+      }
+
+      .profile p + p {
+        margin-top: 3.1mm;
+      }
+
+      .job + .job {
+        margin-top: 4.7mm;
+      }
+
+      .job h3 {
+        font-size: 11.2pt;
+        line-height: 1.28;
+      }
+
+      .dates {
+        margin-top: 1mm;
+        color: #9ba3b0;
+        font-size: 7.15pt;
+        font-weight: 700;
+        letter-spacing: 0.17em;
+        text-transform: uppercase;
+      }
+
+      .education + .education,
+      .course + .course {
+        margin-top: 3.8mm;
+      }
+
+      .education h3,
+      .course h3 {
+        font-size: 11.2pt;
+        line-height: 1.25;
+      }
+
+      @media print {
+        body {
+          background: #fff;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="page">
+      <aside class="sidebar">
+        <img class="avatar" src="../src/assets/portrait-santiago.png" alt="Santiago Gonzalez Vergara" />
+        <h1 class="name">Santiago<br />Gonzalez Vergara</h1>
+        <div class="divider"></div>
+        <p class="headline">Senior Software Engineer |<br />Cloud, Backend &amp; Distributed<br />Systems</p>
+
+        <div class="side-section">
+          <h2>Details</h2>
+          <p>Bogota</p>
+          <p>Colombia</p>
+          <p><a href="mailto:sgonzalezv3@ucentral.edu.co">sgonzalezv3@ucentral.edu.co</a></p>
+        </div>
+
+        <div class="side-section">
+          <h2>Links</h2>
+          <p><a href="https://sgonnzalezv3.github.io/Portafolio">My Portfolio</a></p>
+          <p><a href="https://www.linkedin.com/in/sgonzalezv3">LinkedIn</a></p>
+          <p><a href="https://github.com/sgonnzalezv3">Github</a></p>
+        </div>
+
+        <div class="side-section">
+          <h2>Soft Skills</h2>
+          <ul>
+            <li>Communication</li>
+            <li>Ownership</li>
+            <li>Problem solving</li>
+          </ul>
+        </div>
+
+        <div class="side-section">
+          <h2>Languages</h2>
+          <p>Spanish - Native</p>
+          <div class="meter"><span style="width: 100%"></span></div>
+          <p>English - B2 (Intermediate - reading, writing, speaking)</p>
+          <div class="meter"><span style="width: 80%"></span></div>
+        </div>
+
+        <div class="side-section">
+          <h2>Skills</h2>
+          <p class="skill-line"><strong>Backend:</strong> .NET Core, C#, Node.js, TypeScript, SQL Server, REST APIs</p>
+          <p class="skill-line"><strong>Frontend:</strong> Angular, Vue.js, JavaScript</p>
+          <p class="skill-line"><strong>Architecture:</strong> Clean Architecture, Microservices, Distributed Systems, SOLID</p>
+        </div>
+      </aside>
+
+      <main class="content">
+        <section class="section profile">
+          <h2>Profile</h2>
+          <p>Senior Software Engineer with 5+ years of experience building scalable backend, cloud, and distributed systems across B2B ecommerce, legal-tech, academic platforms, payment workflows, and enterprise integrations.</p>
+          <p>Experienced across .NET, TypeScript, Node.js, Angular, Azure, AWS, Docker, Kubernetes, SQL Server, RabbitMQ, CI/CD automation, observability, and production support.</p>
+          <p>Focused on clean architecture, resilient service design, cloud modernization, performance, and full-lifecycle ownership from technical design to deployment, monitoring, and continuous improvement.</p>
+        </section>
+
+        <section class="section">
+          <h2>Employment History</h2>
+
+          <article class="job">
+            <h3>Senior Software Engineer, Softtek | Clients: Kaplan, Bisk | Remote, Colombia</h3>
+            <p class="dates">Jan 2023 - Present</p>
+            <ul>
+              <li>Led integration work across university APIs, Salesforce CRM, HubSpot, CyberSource, and InterPayments, improving payment and workflow reliability while reducing integration-related incidents by ~15-30%.</li>
+              <li>Strengthened operations and release delivery through scheduled jobs, retry processing, structured logging, Docker, Docker Compose, Jenkins, Azure Pipelines, Azure Repos, and AWS deployments, reducing manual effort and deployment friction.</li>
+              <li>Refactored and adapted system architecture to support Azure migration and cloud modernization, using Azure Blob Storage, Redis, Key Vault, cloud resources, and secure configuration patterns to improve scalability, security, and operational readiness.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Senior Software Engineer, CI&amp;T | Clients: Coca-Cola, Caret Legal | Remote, Colombia</h3>
+            <p class="dates">Aug 2022 - Jan 2023</p>
+            <ul>
+              <li>Owned backend and full-stack delivery across legal-tech and B2B ecommerce platforms, spanning monolithic and microservice architectures with .NET Core, SQL Server, Azure, Angular, Vue.js, TypeScript, and Clean/Hexagonal Architecture.</li>
+              <li>Led Azure modernization work with Azure Functions, Key Vault, Redis Cache, Blob Storage, Azure Monitor, Application Insights, and automated tests, improving reliability, observability, and migration stability.</li>
+              <li>Designed integration-heavy services for WhatsApp chatbot commerce flows, connecting Infobip, Amebot, Vue.js shopping-cart experiences, and external bottler providers such as Andina, Bandeirantes, and Nayar.</li>
+              <li>Managed production releases through GitHub Actions, YAML workflows, Bitbucket Pipelines, Azure Boards, and unit, integration, and E2E testing practices.</li>
+            </ul>
+          </article>
+        </section>
+      </main>
+    </section>
+
+    <section class="page">
+      <aside class="sidebar second">
+        <div class="side-section compact">
+          <h2>Skills</h2>
+          <p class="skill-line"><strong>Cloud &amp; DevOps:</strong> Azure, AWS, Docker, Kubernetes, GitHub Actions, Azure Pipelines, Jenkins</p>
+          <p class="skill-line"><strong>Integrations:</strong> RabbitMQ, Salesforce, HubSpot, WhatsApp API, CyberSource, Redis</p>
+          <p class="skill-line"><strong>Testing:</strong> Unit, Integration, E2E, CI/CD</p>
+        </div>
+      </aside>
+
+      <main class="content second">
+        <section class="section">
+          <article class="job">
+            <h3>Semi Senior Software Engineer, Yuxi Global, Remote, Colombia</h3>
+            <p class="dates">Jan 2022 - Aug 2022</p>
+            <ul>
+              <li>Supported Azure modernization and refactoring of legacy applications, improving scalability, cloud readiness, and operational risk posture.</li>
+              <li>Improved backend reliability by implementing Redis caching and centralizing secrets/configuration with Azure Key Vault, reducing repeated DB calls and configuration-related issues.</li>
+              <li>Delivered Angular REST API integrations and supported Azure DevOps automation under Scrum, improving frontend maintainability and reducing manual delivery steps by ~15-30%.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Software Developer, MVM Ingenieria de Software, Remote, Colombia</h3>
+            <p class="dates">May 2021 - Jan 2022</p>
+            <ul>
+              <li>Developed backend and data-access components with ASP.NET, Entity Framework, and Oracle SQL, improving performance and data reliability in key workflows.</li>
+              <li>Applied layered MVC architecture and design patterns to improve maintainability and reduce rework.</li>
+            </ul>
+          </article>
+
+          <article class="job">
+            <h3>Software Developer, Ingenieria de desarrollo IDL SAS, Bogota</h3>
+            <p class="dates">Jan 2021 - May 2021</p>
+            <ul>
+              <li>Built and shipped features for a spare-parts management system supporting automotive operations for brands such as Chevrolet and KIA.</li>
+              <li>Optimized SQL Server queries, stored procedures, functions, bulk operations, and linked-server inventory retrieval, reducing response times by ~30-60% and lowering intermittent failures by ~15-30%.</li>
+            </ul>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2>Education</h2>
+          <article class="education">
+            <h3>Systems Engineer, Universidad Central, Bogota</h3>
+            <p class="dates">2018 - Present</p>
+          </article>
+          <article class="education">
+            <h3>English (B2 - Intermediate), Universidad Central, Bogota</h3>
+            <p class="dates">2022</p>
+          </article>
+        </section>
+
+        <section class="section">
+          <h2>Courses</h2>
+          <article class="course">
+            <h3>AWS Academy Cloud Foundations, Amazon Web Services (AWS)</h3>
+            <p class="dates">Oct 2024</p>
+          </article>
+          <article class="course">
+            <h3>AWS Academy Introduction to Cloud, Amazon Web Services (AWS)</h3>
+            <p class="dates">Oct 2024</p>
+          </article>
+          <article class="course">
+            <h3>Scrum Project Management Fundamentals, CertiProf</h3>
+            <p class="dates">Mar 2021 - Apr 2021</p>
+          </article>
+        </section>
+      </main>
+    </section>
+  </body>
+</html>
