@@ -6,7 +6,7 @@ const resumeDownloadName = "Santiago Gonzalez CV.pdf";
 const resumeFile = `${process.env.PUBLIC_URL}/${encodeURIComponent(resumeDownloadName)}`;
 
 const metrics = [
-  { value: "5+ Years", label: "Across backend, cloud and full lifecycle delivery" },
+  { value: "5+ Years", label: "Across backend, cloud integrations and production ownership" },
   { value: "30-60%", label: "Faster SQL retrieval in heavy operational workflows" },
   { value: "15-30%", label: "Less deployment friction and fewer manual ops steps" },
   { value: "20-40%", label: "Lower integration risk and stronger production stability" },
@@ -57,6 +57,10 @@ const stackGroups = [
     items: ["Distributed systems", "Microservices", "BFF patterns", "Resilient and scalable services"],
   },
   {
+    title: "AI & Automation",
+    items: ["LLM API integration", "OpenAI/Claude APIs", "AI-assisted development", "Prompt engineering", "Agentic workflows"],
+  },
+  {
     title: "Delivery",
     items: ["GitHub Actions", "Azure Pipelines", "Production support", "Operationally reliable delivery workflows"],
   },
@@ -64,19 +68,19 @@ const stackGroups = [
 
 const workflowSteps = [
   {
-    title: "Design systems for scale and resilience",
+    title: "Design systems for scale, reliability and business fit",
     description:
-      "I work from system design through implementation with emphasis on scalability, observability, reliability, performance and long-term maintainability.",
+      "I work from system design through implementation with emphasis on scalability, observability, reliability, performance and stakeholder alignment.",
   },
   {
-    title: "Own delivery across architecture, platform and product boundaries",
+    title: "Investigate root causes across technical and product boundaries",
     description:
-      "My experience covers backend services, frontend integration, cloud deployment, CI/CD automation, infrastructure concerns and production support across the full software lifecycle.",
+      "My experience covers backend services, integrations, cloud deployment and production support, with a focus on tracing failures to durable fixes instead of surface-level changes.",
   },
   {
-    title: "Raise engineering quality through decisions and execution",
+    title: "Reduce operational friction with practical automation",
     description:
-      "I enjoy contributing to technical direction, strengthening engineering standards and improving systems, processes and team outcomes over time.",
+      "I use CI/CD, observability and AI-assisted engineering practices to improve debugging, documentation, tests and delivery workflows without losing senior engineering judgment.",
   },
 ];
 
@@ -89,10 +93,11 @@ const experienceHistory = [
     impact: "~15-30% less deployment friction and manual operational effort",
     highlights: [
       "Owned backend delivery for academic and ecommerce platforms with high-availability enrollment and student workflows.",
-      "Designed and evolved .NET Core, SQL Server and RabbitMQ services in a microservices setup, while supporting integrations with university APIs, CyberSource, InterPayments, HubSpot and Salesforce.",
-      "Strengthened operational delivery through scheduled processing, observability, Dockerized services, Docker Compose workflows and CI/CD pipelines with Azure Pipelines, Azure Repos and Jenkins into AWS.",
+      "Investigated production issues end to end across university APIs, CRM, payment and enrollment workflows, identifying root causes and delivering sustainable fixes beyond field-level changes.",
+      "Designed and evolved .NET Core, SQL Server and RabbitMQ services in a microservices setup, while supporting integrations with CyberSource, InterPayments, HubSpot and Salesforce.",
+      "Strengthened operational delivery through scheduled processing, observability, Docker, Jenkins, Azure Pipelines, Azure Repos and AWS deployments, reducing manual effort and deployment friction.",
     ],
-    stack: ["RabbitMQ", "Microservices", "Docker", "Docker Compose", "HubSpot", "Salesforce", "Jenkins", "AWS"],
+    stack: ["RabbitMQ", "Microservices", "Root Cause Analysis", "Docker", "HubSpot", "Salesforce", "Jenkins", "AWS"],
   },
   {
     period: "Aug 2022 - Jan 2023",
@@ -103,9 +108,10 @@ const experienceHistory = [
     highlights: [
       "Delivered engineering across legal-practice systems and B2B ecommerce products spanning monolithic and microservice architectures with .NET Core, Node.js, Angular, Azure and Clean or Hexagonal approaches.",
       "Led migration of key modules to Azure using Key Vault, Redis, Blob Storage and Azure Functions, while supporting chatbot and shopping-cart flows tied to backend services and third-party integrations.",
-      "Owned frontend and backend delivery, GitHub Actions YAML workflows, GitHub deployment pipelines and release execution, while working across Atlassian tooling, Azure Monitor and Application Insights.",
+      "Applied AI-assisted workflows with Claude, GPT, Codex and Cursor to accelerate debugging, legacy-code analysis, documentation, test generation and internal automation while keeping production-quality review standards.",
+      "Owned frontend and backend delivery, GitHub Actions YAML workflows, GitHub deployment pipelines and release execution across Atlassian tooling, Azure Monitor and Application Insights.",
     ],
-    stack: ["Node.js", "Angular", "Azure", "Azure Functions", "Chatbot", "B2B Ecommerce", "Atlassian", "GitHub Actions", "YAML Workflows", "GitHub Deployments"],
+    stack: ["Node.js", "Angular", "Azure", "Azure Functions", "AI-Assisted Development", "Chatbot", "B2B Ecommerce", "GitHub Actions", "YAML Workflows"],
   },
   {
     period: "Jan 2022 - Aug 2022",
@@ -173,10 +179,12 @@ export const PortfolioApp = () => {
       <header className="site-header">
         <nav className="site-nav">
           <a className="brand" href="#top">
-            <span className="brand-mark">SG</span>
+            <span className="brand-mark" aria-hidden="true">
+              <img src={`${process.env.PUBLIC_URL}/favicon.ico.png`} alt="" />
+            </span>
             <span className="brand-copy">
               <strong>Santiago Gonzalez</strong>
-              <span>Senior-level cloud, distributed systems and web engineering</span>
+              <span>Senior backend, cloud integrations and AI-assisted engineering</span>
             </span>
           </a>
 
@@ -197,18 +205,19 @@ export const PortfolioApp = () => {
       <main>
         <section className="section hero" id="top">
           <div className="hero-copy reveal">
-            <p className="eyebrow">Senior engineering across architecture, cloud delivery and modern platforms</p>
+            <p className="eyebrow">Senior backend, cloud integrations and AI-assisted engineering</p>
             <h1>
-              I design and deliver scalable, resilient and high-performing systems
-              with a senior focus on architecture, cloud and distributed software.
+              I design backend and cloud integration systems with AI-assisted
+              engineering practices.
             </h1>
             <p className="lead">
               I bring 5+ years across the full software lifecycle, from architecture
-              and backend development to frontend integration, cloud deployment,
-              CI/CD automation and production support. My strongest work spans
-              distributed services, messaging, clean architecture, cloud migration,
-              observability, payment and third-party integrations, and platform-oriented
-              delivery using .NET, TypeScript, AWS, Azure, Docker, Kubernetes and SQL.
+              and backend development to cloud deployment, CI/CD automation,
+              production support and stakeholder-facing root-cause analysis. My
+              strongest work spans distributed services, messaging, clean
+              architecture, cloud migration, observability, payment and CRM
+              integrations, with AI-assisted engineering used to improve debugging,
+              documentation, tests and internal automation.
             </p>
 
             <div className="hero-actions">
@@ -226,16 +235,16 @@ export const PortfolioApp = () => {
 
             <div className="hero-signal-grid">
               <div className="signal-card">
-                <span>Career scope</span>
-                <strong>5+ years across consulting, product delivery and cloud modernization</strong>
+                <span>Backend and cloud systems</span>
+                <strong>Architecture, integrations, production reliability and delivery ownership</strong>
               </div>
               <div className="signal-card">
-                <span>Engineering lens</span>
-                <strong>Distributed systems, clean architecture, observability and long-term maintainability</strong>
+                <span>AI-assisted engineering</span>
+                <strong>Claude, GPT, Codex and Cursor for debugging, docs, tests and automation</strong>
               </div>
               <div className="signal-card">
                 <span>Open to</span>
-                <strong>Senior backend, platform, systems and full-stack opportunities</strong>
+                <strong>Senior backend, cloud/platform, integrations and AI automation-adjacent roles</strong>
               </div>
             </div>
           </div>
@@ -248,10 +257,11 @@ export const PortfolioApp = () => {
 
             <div className="hero-panel-copy">
               <p className="panel-kicker">Professional profile</p>
-              <h2>Senior Software Engineer | Cloud and Distributed Systems</h2>
+              <h2>Senior Software Engineer | Backend, Cloud, Integrations & AI Automation</h2>
               <p>
-                Focused on building technically strong systems that stay
-                maintainable, efficient and aligned with business goals as they scale.
+                Focused on business-critical backend systems, production
+                reliability, integration-heavy workflows and pragmatic automation
+                that keeps engineering work aligned with business goals.
               </p>
             </div>
 
@@ -289,22 +299,22 @@ export const PortfolioApp = () => {
         <section className="section" id="about">
           <div className="section-heading reveal">
             <p className="eyebrow">About</p>
-            <h2>Built on 5+ years across backend systems, cloud delivery and complex integrations.</h2>
+            <h2>Built on 5+ years across backend systems, cloud integrations and production problem solving.</h2>
           </div>
 
           <div className="story-grid">
             <article className="story-card reveal">
               <p>
-                I build scalable, resilient and high-performing systems across
-                backend, cloud and modern web applications. My work is strongest
-                in environments where architecture, integration complexity,
+                I build scalable, resilient and high-performing systems across backend,
+                cloud and integration-heavy environments. My work is strongest when
+                architecture, stakeholder alignment, root-cause investigation,
                 performance and delivery quality matter as much as implementation speed.
               </p>
               <p>
                 My background includes cloud migrations, reliable backend services,
                 distributed systems, CI/CD automation, observability, payment and
-                partner integrations, and frontend delivery with Angular and Vue
-                when products require end-to-end ownership.
+                CRM integrations, and AI-assisted engineering practices that reduce
+                debugging time, documentation gaps, test friction and operational overhead.
               </p>
             </article>
 
@@ -313,8 +323,8 @@ export const PortfolioApp = () => {
               <ul className="checklist">
                 <li>Senior backend engineering with broader systems and platform ownership.</li>
                 <li>Experience with cloud infrastructure, containers, messaging and delivery pipelines.</li>
-                <li>Practical knowledge of distributed systems, resilience, caching and performance.</li>
-                <li>Focus on clean design, architecture decisions and long-term maintainability.</li>
+                <li>Root-cause analysis across APIs, CRM, payment, enrollment and production workflows.</li>
+                <li>AI-assisted engineering for legacy analysis, debugging, documentation, tests and automation.</li>
               </ul>
             </article>
           </div>
@@ -323,7 +333,7 @@ export const PortfolioApp = () => {
         <section className="section" id="experience">
           <div className="section-heading reveal">
             <p className="eyebrow">Experience</p>
-            <h2>Career evidence across consulting, cloud migration and distributed backend delivery.</h2>
+            <h2>Career evidence across backend delivery, cloud modernization, integrations and root-cause ownership.</h2>
           </div>
 
           <div className="experience-list">
@@ -444,11 +454,12 @@ export const PortfolioApp = () => {
           <div className="contact-banner reveal">
             <div>
               <p className="eyebrow">Contact</p>
-              <h2>Let&apos;s talk about senior engineering, platform delivery or distributed systems.</h2>
+              <h2>Let&apos;s talk about senior backend, cloud integrations, production reliability or AI-assisted automation.</h2>
               <p>
                 If you need someone who can contribute across architecture,
-                backend, cloud delivery, integration-heavy systems and modern web
-                platforms, I am available to continue the conversation.
+                backend, cloud delivery, integration-heavy systems, root-cause
+                analysis and pragmatic AI automation, I am available to continue
+                the conversation.
               </p>
             </div>
 
