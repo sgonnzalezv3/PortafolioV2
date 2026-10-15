@@ -101,13 +101,14 @@ const experienceHistory = [
     impact: "~25% fewer recurring integration incidents",
     highlights: [
       "Led integrations across university APIs, Salesforce CRM, HubSpot, CyberSource, and InterPayments, reducing recurring integration incidents by ~25%.",
+      "Implemented asynchronous messaging with RabbitMQ to publish and consume payment-related events between services.",
       "Built an in-app AI chatbot in .NET with Anthropic's Claude API that guides students through enrollment, grounding each response in live data retrieved from the application database and CRM.",
       "Partnered with business, QA, DevOps, and product stakeholders to trace production issues end-to-end, identify root causes, and deliver sustainable fixes beyond field-level changes.",
       "Built agentic AI workflows with Claude and Claude Code (skills, subagents, CLAUDE.md), applying role-based system prompts, strict grounding to prevent hallucinations, explicit fallbacks, and temperature tuning.",
-      "Improved release operations with scheduled jobs, retry processing, structured logging, Docker, Jenkins, Azure Pipelines, Azure Repos, and AWS deployments.",
-      "Supported Azure migration and cloud modernization using Azure Blob Storage, Redis, Key Vault, cloud resources, and secure configuration patterns.",
+      "Improved release reliability by adding scheduled jobs with retry processing and structured logging, shipping Docker-based deployments to AWS through Jenkins and Azure Pipelines.",
+      "Supported the Azure migration by moving storage, caching, and secrets management to Blob Storage, Redis, and Key Vault.",
     ],
-    stack: ["Claude API", "Agentic AI", ".NET", "Salesforce", "HubSpot", "CyberSource", "Docker", "Jenkins", "Azure", "AWS"],
+    stack: ["Claude API", "Agentic AI", ".NET", "RabbitMQ", "Salesforce", "HubSpot", "CyberSource", "Docker", "Jenkins", "Azure", "AWS"],
   },
   {
     period: "Aug 2022 - Jan 2023",
@@ -117,15 +118,15 @@ const experienceHistory = [
     impact: "Azure modernization and WhatsApp commerce integrations in production",
     highlights: [
       "Owned backend and full-stack delivery across legal-tech and B2B ecommerce platforms using .NET Core, Node.js, TypeScript, SQL Server, Azure, Angular, Vue.js, and Clean/Hexagonal Architecture.",
-      "Led Azure modernization with Azure Functions, Key Vault, Redis Cache, Blob Storage, Azure Monitor, Application Insights, and automated tests.",
+      "Led Azure modernization using Azure Functions, adding observability through Azure Monitor and Application Insights.",
       "Designed WhatsApp commerce integrations connecting Infobip, chatbot workflows, shopping-cart experiences, and external bottler providers.",
-      "Managed production releases and containerized workflows with GitHub Actions, Bitbucket Pipelines, Docker, Kubernetes, YAML, Azure Boards, and unit/integration/E2E tests.",
+      "Managed production releases through CI/CD pipelines on GitHub Actions and Bitbucket, deploying Docker containers to Kubernetes with unit, integration, and E2E test coverage.",
     ],
-    stack: ["Node.js", "TypeScript", "Angular", "Vue.js", "Azure Functions", "WhatsApp API", "Infobip", "GitHub Actions", "Kubernetes"],
+    stack: ["Node.js", "TypeScript", "Angular", "Vue.js", "Azure Functions", "WhatsApp API", "Infobip", "GitHub Actions", "Docker", "Kubernetes"],
   },
   {
     period: "Jan 2022 - Aug 2022",
-    role: "Semi Senior Software Engineer",
+    role: "Software Engineer",
     company: "Yuxi Global",
     context: "Azure modernization | Remote, Colombia",
     impact: "Legacy apps modernized for Azure with stronger reliability",
@@ -166,18 +167,17 @@ const education = [
   {
     title: "Education and courses",
     items: [
-      "Systems Engineer, Universidad Central, Bogota. Expected graduation: 2027.",
+      "B.S. in Systems Engineering, Universidad Central. Expected graduation: 2027.",
       "AWS Academy Cloud Foundations, Amazon Web Services (AWS). Oct 2024.",
       "AWS Academy Introduction to Cloud, Amazon Web Services (AWS). Oct 2024.",
       "Scrum Project Management Fundamentals, CertiProf. Mar 2021 - Apr 2021.",
     ],
   },
   {
-    title: "Languages and soft skills",
+    title: "Languages",
     items: [
       "Spanish: native.",
       "English: B2, professional working proficiency.",
-      "Communication, ownership and problem solving.",
     ],
   },
 ];
@@ -185,8 +185,8 @@ const education = [
 const contactLinks = [
   {
     label: "Email",
-    value: "sgonzalezv3@ucentral.edu.co",
-    href: "mailto:sgonzalezv3@ucentral.edu.co",
+    value: "santiago-052-2@hotmail.com",
+    href: "mailto:santiago-052-2@hotmail.com",
   },
   {
     label: "LinkedIn",
@@ -521,7 +521,7 @@ export const PortfolioApp = () => {
             </div>
 
             <div className="contact-actions">
-              <a className="button button-primary" href="mailto:sgonzalezv3@ucentral.edu.co">
+              <a className="button button-primary" href="mailto:santiago-052-2@hotmail.com">
                 Email me
               </a>
               <a
