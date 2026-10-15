@@ -14,11 +14,11 @@ const metrics = [
 
 const projects = [
   {
-    title: "GloboTicket-BrokersQueMessageCommunication",
+    title: "MultiTenancyDemo",
     description:
-      "Multi-service ecosystem with web and mobile BFF layers, message-based communication, payment integration, RabbitMQ and Azure Service Bus support. This is the strongest public example of large-scope distributed architecture in my GitHub profile.",
-    stack: ["Microservices", "RabbitMQ", "Azure Service Bus", "BFF", "Polly", ".NET"],
-    url: "https://github.com/sgonnzalezv3/GloboTicket-BrokersQueMessageCommunication",
+      "Row-level multi-tenancy reference in ASP.NET Core with Identity and EF Core. The tenant is resolved per request from a claim in the auth cookie, a generic global query filter is applied by reflection to every tenant-scoped entity, and SaveChanges stamps the TenantId and rejects writes without a tenant.",
+    stack: ["ASP.NET Core", "EF Core", "Identity", "Global query filters", "Multi-tenancy", "SQL Server"],
+    url: "https://github.com/sgonnzalezv3/MultiTenancyDemo",
   },
   {
     title: "CleanArchitectureProject",
